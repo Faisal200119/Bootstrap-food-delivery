@@ -1,0 +1,272 @@
+body{
+    margin: auto;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    background-color:red;
+    position: fixed;
+    width: 100%;
+}
+
+button{
+    height: 35px;
+    width: 100px;
+    background-color:#213b50;
+    margin-top: 6%;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+#Login{
+    background-color:transparent;
+    font-size: 20px;
+}
+
+#Signup{
+    background-color:transparent;
+    font-size: 20px;
+}
+
+#name{
+    float: left;
+    display: flex;
+    color: azure;
+}
+
+#name > h1{
+    height: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+#social{
+    float: right;
+    margin-right: 2%;
+}
+
+/*Search CSS*/
+
+#search{
+    height: 500px;
+    /*border: 2px solid blue;*/
+    background-image: url(Bootstrap-images/shutter.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 48%;
+    margin-top: 140px;
+    position: absolute;;
+}
+
+#logo > span{
+    font-size: 67px;
+    margin-left: 15%;
+    margin-top: 5%;
+    position: absolute;
+    color: red;
+}
+
+#head{
+    font-size: 35px;
+    margin-left: 30%;
+    margin-top: 12%;
+    position: absolute;
+    color: white;
+
+}
+
+.dropdown{
+    height: 50px;
+    width: 43%;
+    margin-left: 30%;
+    margin-top: 17%;
+    position: absolute;
+    border-radius: 5px;
+    /*border: 2px solid white;*/
+
+}
+
+select{
+    height: 50px;
+    width: 49%;
+    font-size: 80%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+/*Quick search CSS*/
+#QuickSearch{
+    /*height: 600px;*/
+    /*border: 2px solid black;*/
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    
+}
+
+.quickheading{
+    font-size: 30px;
+    font-weight: bold;
+     color:rgb(15, 15, 54);
+    margin-left: 2%;
+}
+
+.quicksubheading{
+    color: gray;
+    font-size: 15px;
+    display: block;
+    line-height: 3;
+    margin-left: 2%;
+    
+}
+
+.tileContainer{
+    height: 180px;
+    width: 30%;
+    /*border: 2px solid blue;*/
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 10px 20px 10px gray;
+    background-color: white;
+}
+
+.tileComponent img{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.tileComponent1{
+    float: left;
+    width: 45%;
+    margin-left: 3%;
+}
+
+.tileComponent1 h2{
+    color: #213b50;
+}
+
+.tileComponent1 p{
+    color: gray;
+}
+
+
+
+
+/*footer CSS*/
+footer{
+    margin-left: 600px;
+    font-size: 10px;
+    color:rgb(15, 15, 54);
+}
+
+/* Bootstraps */
+@media screen  and (max-width: 1600px) {
+    body{
+        background-color: aqua;
+    }
+}
+
+@media screen  and (max-width: 1400px) {
+    body{
+        background-color: white;
+    }
+    #head{
+        margin-left: 25%;
+        margin-top: 21%;
+    }
+    .dropdown{
+        margin-left: 30%;
+        margin-top: 28%;
+    }
+}
+
+@media screen  and (max-width: 1200px) {
+    body{
+        background-color:lightgreen;
+    }
+    #head{
+        margin-left: 23%;
+        margin-top: 18%;
+    }
+    .dropdown{
+        margin-left: 30%;
+        margin-top: 28%;
+    }
+}
+
+@media screen  and (max-width: 1000px) {
+    body{
+        background-color:lightcoral;
+    }
+    .tileContainer{
+        width: 45%;
+    }
+    #head{
+        margin-left: 15%;
+        margin-top: 18%;
+    }
+    .dropdown{
+        margin-left: 23%;
+        margin-top: 28%;
+        width: 60%;
+    }
+}
+
+@media screen  and (max-width: 800px) {
+    body{
+        background-color:lightcyan;
+    }
+    #head{
+        margin-left: 20%;
+        margin-top: 22%;
+        font-size: 38px;
+    }
+    .dropdown{
+        margin-left: 22%;
+        margin-top: 35%;
+        width: 70%;
+    }
+}
+
+@media screen  and (max-width: 600px) {
+    body{
+        background-color: lightpink;
+    }
+    .tileContainer{
+        width: 100%;
+    }
+    #logo{
+        margin-left: 40%;
+        margin-top: 15%;
+    }
+    #head{
+        margin-left: 0%;
+        margin-top: 45%;
+        font-size: 33.5px;
+    }
+    .dropdown{
+        margin-left: 0%;
+        margin-top: 66%;
+        width: 100%;
+    }
+}
